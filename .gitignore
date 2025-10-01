@@ -1,0 +1,52 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+
+# =====================
+# Entornos virtuales
+# =====================
+venv/
+ENV/
+env/
+.venv/
+*.env
+
+# =====================
+# Archivos de configuración local
+# =====================
+*.log
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db
+
+# =====================
+# Jupyter
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# YOLO / Entrenamiento
+# =====================
+runs/
+datasets/
+*.pt
+*.onnx
+*.engine
+*.trt
+yolo/weights/
+yolo/datasets/
+
+# =====================
+# IDEs
+# =====================
+.vscode/
+.idea/
+*.swp
