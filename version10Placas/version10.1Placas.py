@@ -17,7 +17,7 @@ import logging  # logging: para mensajes estructurados en vez de prints.
 import sys  # sys: para exit y manejo de errores críticos.
 
 # ---------------------- CONFIGURACIÓN ----------------------
-TIEMPO_ESPERA_REPETICION = 60  # segundos; evita contar la misma placa repetidamente.
+TIEMPO_ESPERA_REPETICION = 90  # segundos; evita contar la misma placa repetidamente.
 FRAME_SKIP = 10  # Procesar detección cada N frames para ahorrar CPU.
 CONF_THRESHOLD = 0.4  # Umbral de confianza para las detecciones YOLO.
 OCR_CONF_THRESHOLD = 0.3  # Umbral mínimo de confianza del OCR para aceptar texto.
