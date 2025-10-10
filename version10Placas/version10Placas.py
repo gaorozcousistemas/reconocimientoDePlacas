@@ -5,7 +5,6 @@ import re
 import time
 import datetime
 from ultralytics import YOLO
-+
 # ===== Parámetros globales mejorados =====
 TIEMPO_ESPERA_REPETICION = 60  # 1 minuto en segundos
 
@@ -169,6 +168,7 @@ def validar_placa_mejorada(texto):
         return None
     except Exception as e:
         return None
+    
 
 def mejorar_contraste_texto(imagen):
     """Enfocar el área de texto mediante operaciones morfológicas"""
