@@ -7,7 +7,7 @@ import datetime
 from ultralytics import YOLO
 
 # ===== Parámetros para fuente FE de alta seguridad =====
-TIEMPO_ESPERA_REPETICION = 60
+TIEMPO_ESPERA_REPETICION = 120
 
 # Rangos HSV optimizados para placas colombianas oficiales
 rangos_amarillo = [
