@@ -1,0 +1,3 @@
+1.)Se modularizo el código para que sea mas comprensible y fácil de usar, y de manipular para los integrantes del grupo. El modelo funciona bien y reconoce la mayoría de placas de gran manera.
+2.)Se implemento una base de datos(SQLite), para almacenar los datos recolectados de la detección de placas.  
+3.)A este punto hemos aprendido a subir el archivo a GitHub sin problema, además hicimos cambios en GitHub, pasamos el proyecto de privado a publico para que cualquiera pueda acceder a el.
